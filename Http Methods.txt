@@ -1,0 +1,22 @@
+HTTP METHODS
+
+The HTTP – HyperText Transfer Protocol method is designed to enable communications between clients and servers. HTTP works as a request-response protocol between a client and server. For example, a cleient (browser) sends an HTTP request to the server, then the server returns a response to the client.HTTP methods can be expanded based on requirements. These method names are case sensitive and they must be used in uppercase.
+GET
+The GET  method is used to retrieve information from the given server using a given URL. Requests using GET should only retrieve data and should have no other effect on the data. The method retrieves data like client/user’s name, password, etc.
+POST
+A POST request is used to send data to the server, for example, user information, file upload, etc using HTML forms.
+HEAD
+The HEAD method is functionally similar to GET, except that the server replies with a response line and headers, but no entity-body. It transfers the status line and header section on it.
+PUT
+The PUT method is used to request the server to store the included entity-body at a given location specified by the given URL. It replaces all current representations to the target resource with the uploaded content.
+DELETE
+The DELETE method is used to request the sever to delete a file at a location specified by the given URL. It removes all the current representations of the target resource given by a URL.
+CONNECT
+The CONNECT method is used by the client to establish a network connection to a web server over HTTP. It establishes ba tunnel to th server identified by a URL.
+OPTIONS
+The OPTIOn method is used by the client to find outthe HTTP methods and others supported by a web server. The client can specify a URL for the OPTIONS method or an asrerisk(*) to refer to the entire server. It describes the communication options for the target resource.
+TRACE
+The TRACE method is used to echo the contents of an HTTP request back to the requester which can be used for debuggingpurpose at the time of development. It performs a message loop-back along the path to the target resource.
+TARGET RESOURCE - The target of an HTTP request is called a "resource", whose nature isn't defined further; it can be a document, a photo, or anything else. Each resource is identified by a Uniform Resource Identifier (URI) used throughout HTTP for identifying resources.
+URI is used to distinguish one resource from other regardless of the method used. URL provides the details about what type of protocol is to be used. URI doesn't contains the protocol specification. URL is a type of URI.
+A URI — short for “Uniform Resource Identifier” — is a sequence of characters that distinguishes one resource from another. For example, foo://example.com:8042/over/there?name=ferret#nose is a URI containing a scheme name, authority, path, query and fragment.
